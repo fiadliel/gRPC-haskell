@@ -225,8 +225,8 @@ benchmark bench
   build-depends:
       base >=4.8 && <5.0
     , grpc-haskell
-    , async ==2.1.*
-    , criterion ==1.1.*
+    , async
+    , criterion ==1.5.*
     , proto3-suite
     , bytestring ==0.10.*
     , random >=1.0.0
